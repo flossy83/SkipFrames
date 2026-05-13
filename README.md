@@ -102,7 +102,7 @@ SkipFrames(
                         OutFrame = InFrame + SkipAhead
                         SkipMes occur on PreviousFrame when SkipAhead increments
                         SequentialFrames resets to 0 on nonsequential access or seeking
-                        AudioSkipahead = SkipAhead * AudioSamplesPerFrame   */
+                        AudioSkipaheadSamples = AudioSamplesPerFrame * AudioSkipaheadFrames  */
 
 \ )
 ```
@@ -111,7 +111,7 @@ SkipFrames(
 
 For testing you can use [this clock video](https://www.ixbt.com/multimedia/video-methodology/other/watch-4k-24p.mp4)
 
-<img width="854" height="480" alt="skipframes avs_snapshot_00 10 583" src="https://github.com/user-attachments/assets/2e6b7656-c0ea-4ca6-974f-719ca782fe4e" />
+<img width="854" height="480" alt="skipframes avs_snapshot_00 11 541" src="https://github.com/user-attachments/assets/44dfa094-2713-4ffb-91ae-b0db271d2d43" />
 </br></br>
 
 With the following script, a frame skip and audio click should occur when the hand points at 12 o'clock.
