@@ -2,9 +2,9 @@
 #include <cstring>  // memset
 #include <cmath>    // round
 #include <vector>   // vector
-#include <cstdint>  // ?
+#include <cstdint>  // unused
 
-const AVS_Linkage* AVS_linkage = nullptr;  // required for modern Avisynth+ 
+const AVS_Linkage* AVS_linkage = nullptr;  // link to avisynth.dll
 
 class SkipFrames : public GenericVideoFilter {
 
