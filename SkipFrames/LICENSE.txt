@@ -1,0 +1,46 @@
+Custom Non-Commercial Software License
+Version 1.0
+
+Copyright (c) 2026 Simon Zajac
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to use, copy, modify, merge, publish, and distribute
+the Software, subject to the following conditions:
+
+1. Non-Commercial Use
+   The Software may be used, modified, and distributed for personal,
+   educational, research, hobby, and other non-commercial purposes
+   without restriction.
+
+2. Commercial Use Restriction
+   Commercial use of the Software is prohibited without prior written
+   permission from the copyright holder.
+
+   "Commercial use" includes, but is not limited to:
+   - Selling the Software
+   - Bundling the Software with commercial products or services
+   - Using the Software in a paid product or service
+   - Using the Software internally within a for-profit business
+     for revenue-generating purposes
+
+3. Redistribution Requirements
+   Redistributions of the Software, whether modified or unmodified,
+   must retain:
+   - this license text
+   - the copyright notice
+   - any attribution notices included with the Software
+
+4. No Warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+   OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+   HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+   FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+   OTHER DEALINGS IN THE SOFTWARE.
+
+5. Commercial Licensing Contact
+   To request commercial licensing permissions, contact:
+   [calibrationtools@gmail.com]
