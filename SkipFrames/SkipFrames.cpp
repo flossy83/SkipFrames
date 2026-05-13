@@ -298,6 +298,6 @@ AvisynthPluginInit3(IScriptEnvironment * env, const AVS_Linkage* const vectors)
     AVS_linkage = vectors;   
     env->AddFunction("SkipFrames",
         "c[SkipStrings]i[ResetOnSeek]i[SeqThresh]i[IgnoreRange]i[AudioSync]i[Debug]i", Create_SkipFrames, nullptr);
-    return "SkipFrames v0.1 - dynamic frame/audio skipper";
+    return "SkipFrames v1.0 - dynamic frame/audio skipper";
 }
 
