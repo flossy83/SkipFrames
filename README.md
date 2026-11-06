@@ -20,9 +20,7 @@ Then call SkipFrames() to skip them.
 
 ```
 # Tip: do your audio processing first to avoid potential compatibility issues
-# eg. SoxFilter()
-# eg. Normalize()
-# eg. DelayAudio() etc.
+# eg. SoxFilter(), Normalize(),  DelayAudio() etc.
 
 # Set the frames you want to skip
 ScriptClip(last, "SetFramesToSkip(last, current_frame)", after_frame=true, local=false)
