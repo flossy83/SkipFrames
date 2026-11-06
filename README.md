@@ -19,12 +19,23 @@ Then call SkipFrames() to skip them.
 #### Example
 
 ```
+# Tip: do your audio processing first to avoid potential compatibility issues
+# eg. SoxFilter()
+# eg. Normalize()
+# eg. DelayAudio() etc.
+
+# Set the frames you want to skip
 ScriptClip(last, "SetFramesToSkip(last, current_frame)", after_frame=true, local=false)
 
+# Skip them
 SkipFrames()
 
-# RequestLinear() or Preroll(24)   # you may need to use one of these if multithreading
-# PropShow(props="_SkipFrames*")   # for debugging - requires v3.7.4+
+# Tip: for multithreading
+# RequestLinear() or Preroll(24)
+# Prefetch(8)
+
+# Tip: for debugging (requires Avisynth v3.7.4+)
+# PropShow(props="_SkipFrames*") 
 
 function SetFramesToSkip(clip c, int current_frame){
 
